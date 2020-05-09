@@ -153,4 +153,4 @@ while len(persons) > 1:
         if i.health_Person < 0:
             persons.remove(i)
 
-print('Победил', persons[0].__class__, persons[0].name_Person)
+print('Победил', persons[0].name_Person)
